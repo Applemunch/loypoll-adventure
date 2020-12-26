@@ -1,0 +1,1 @@
+nextRoom = plugs_2

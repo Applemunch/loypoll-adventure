@@ -1,0 +1,1 @@
+nextRoom = emptiness_and_ambience

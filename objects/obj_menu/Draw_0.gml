@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_title,0,320,64,1,1,0,c_white,255)
