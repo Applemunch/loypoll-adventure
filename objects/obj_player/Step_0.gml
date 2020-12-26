@@ -11,7 +11,7 @@ if state == 1
 {
 	canmove = false
 	y += yspeed
-	yspeed += 0.3
+	yspeed -= 0.2
 }
 
 

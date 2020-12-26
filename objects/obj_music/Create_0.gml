@@ -1,1 +1,1 @@
-global.music = mus_menu
+global.music = audio_play_sound(mus_menu,1,false)

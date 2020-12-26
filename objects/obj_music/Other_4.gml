@@ -1,12 +1,15 @@
-audio_stop_sound(global.music)
+var mus = mus_nothing
 
 if room == menu
-	global.music = mus_menu
+	mus = mus_menu
 if room == plugs_1 or room == plugs_2 or room == plugs_3
-	global.music = mus_room1
+	mus = mus_room1
 if room == emptiness_and_ambience
-	global.music = mus_nothing
+	mus = mus_nothing
 
 
 
-audio_play_sound(global.music,5,true)
+if !audio_is_playing(mus) {
+	audio_stop_sound(global.music)
+	global.music = audio_play_sound(mus,1,true)
+}
