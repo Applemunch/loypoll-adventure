@@ -3,7 +3,7 @@
   "option_windows_executable_name": "loyface.exe",
   "option_windows_version": "0.1.0.0",
   "option_windows_company_info": "n",
-  "option_windows_product_info": "loy face",
+  "option_windows_product_info": "Loy Maze. Fun!",
   "option_windows_copyright_info": "",
   "option_windows_description_info": "Loy Face. Maze!",
   "option_windows_display_cursor": true,
